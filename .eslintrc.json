@@ -11,8 +11,10 @@
         "sourceType": "module",
         "project": ["tsconfig.json"]
     },
-    "plugins": ["prettier"],
     "rules": {
-        "prettier/prettier": "error"
-    }
+        "prettier/prettier": "error",
+        "semi": "off",
+        "@typescript-eslint/semi": "off"
+    },
+    "plugins": ["prettier"]
 }

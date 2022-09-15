@@ -35,7 +35,7 @@
         "json": {
           "status": "ok",
           "data": {
-            "token": "TODO: 사용자의 유니크한 id를 JWT token으로 만들어서 내려줍니다."
+            "token": \"TODO: 사용자의 유니크한 id를 JWT token으로 만들어서 내려줍니다."
           }
         }
       },
@@ -222,10 +222,7 @@
       }
     },
     "body": {
-      "doctor_id": "string",
-      "address": "string",
-      "address_code": "string",
-      "store_address": "string"
+
     },
     "response": {
       "success": {
